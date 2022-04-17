@@ -1,8 +1,9 @@
-$("#endgame").hide();
 $(document).ready(function () {
     imageSelect();
     $("#start").on("click", function () {
         entryName();
+        $("#endgame").hide();
+
     });
 });
 
